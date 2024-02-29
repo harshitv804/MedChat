@@ -1,0 +1,8 @@
+langchain
+transformers
+sentence-transformers
+accelerate
+faiss-cpu
+streamlit
+langchain-together
+einops

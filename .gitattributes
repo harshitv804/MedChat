@@ -1,0 +1,2 @@
+medchat_db/index.pkl filter=lfs diff=lfs merge=lfs -text
+medchat_db/index.faiss filter=lfs diff=lfs merge=lfs -text
