@@ -35,4 +35,4 @@ MedChat🤖 is an innovative RAG-based generative AI chatbot designed for inquir
 #### 4. To run the `app.py` file, open the CMD Terminal and and type `streamlit run FULL_FILE_PATH_OF_APP.PY`.
 
 ## Contact
-If you have any questions or feedback, please reach out to [harshitvenkatesan88@gmail.com]
+If you have any questions or feedback, please raise an [github issue](https://github.com/harshitv804/LawGPT/issues).
