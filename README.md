@@ -21,18 +21,19 @@ MedChat🤖 is an innovative RAG-based generative AI chatbot designed for inquir
    - ```
      git clone https://github.com/harshitv804/MedChat.git
      ```
-#### 2. Install necessary packages:
+#### 2. Download the vector db files from [https://huggingface.co/spaces/harshitv804/MedChat/tree/main/medchat_db](https://huggingface.co/spaces/harshitv804/MedChat/tree/main/medchat_db) and save it in a folder named `medchat_db` in the same directory.
+#### 3. Install necessary packages:
    - ```
      pip install -r requirements.txt
      ```
-#### 3. Sign up with Together AI today and get $25 worth of free credit! 🎉 Whether you choose to use it for a short-term project or opt for a long-term commitment, Together AI offers cost-effective solutions compared to the OpenAI API. 🚀 You also have the flexibility to explore other Language Models (LLMs) or APIs if you prefer. For a comprehensive list of options, check out this link: [python.langchain.com/docs/integrations/llms](https://python.langchain.com/docs/integrations/llms) . Once signed up, seamlessly integrate Together AI into your Python environment by setting the API Key as an environment variable. 💻✨
+#### 4. Sign up with Together AI today and get $25 worth of free credit! 🎉 Whether you choose to use it for a short-term project or opt for a long-term commitment, Together AI offers cost-effective solutions compared to the OpenAI API. 🚀 You also have the flexibility to explore other Language Models (LLMs) or APIs if you prefer. For a comprehensive list of options, check out this link: [python.langchain.com/docs/integrations/llms](https://python.langchain.com/docs/integrations/llms) . Once signed up, seamlessly integrate Together AI into your Python environment by setting the API Key as an environment variable. 💻✨
    - ```
       os.environ["TOGETHER_API_KEY"] = "YOUR_TOGETHER_API_KEY"`
      ```
    - If you are going to host it in streamlit, huggingface or other...
       - Save it in the secrets variable provided by the hosting with the name `TOGETHER_API_KEY` and key as `YOUR_TOGETHER_API_KEY`.
 
-#### 4. To run the `app.py` file, open the CMD Terminal and and type `streamlit run FULL_FILE_PATH_OF_APP.PY`.
+#### 5. To run the `app.py` file, open the CMD Terminal and and type `streamlit run FULL_FILE_PATH_OF_APP.PY`.
 
 ## Contact
 If you have any questions or feedback, please raise an [github issue](https://github.com/harshitv804/LawGPT/issues).
